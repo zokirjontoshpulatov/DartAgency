@@ -1,0 +1,555 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+header
+{
+width: 100%;
+height: 80px;
+background-color: #1EBBFA;
+z-index: 999;
+}
+
+nav
+{
+    background-color: #fff;
+    height: 75px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.div{
+    
+    height: 75px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 200px;
+    background-color: #1EBBFA;
+    z-index: 999;
+}
+
+.div li{
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.diiv{
+    padding-top: 25px;
+    padding:15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: #fff;
+}
+
+.diiv a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ul_1{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 600px;
+    padding-top: 25px;
+    /* color: white; */
+}
+
+.ul_1 li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* body{
+    background-image: url('./137656-dzhip-koleso-obod-shevrole_kamaro-muskul_kar-7680x4320.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+} */
+
+.divv{
+    width: 110%;
+    height: 95vh;
+    background-image: url('./137656-dzhip-koleso-obod-shevrole_kamaro-muskul_kar-7680x4320.jpg');
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    transform: rotate(-5deg);
+    position: absolute;
+    top:0;
+    left: -5%;
+}
+
+.divvv{
+    text-align: center;
+    width: 700px;
+    height: 291px;
+    /* background-color: violet; */
+    position: absolute;
+    top: 280px;
+    left: 400px;
+
+}
+
+.divvv h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 13px;
+    margin-bottom: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.p_1{
+    font-size: 16px;
+    color: #fff;
+    max-width: 530px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;
+}
+
+.button_1{
+    background: transparent;
+    /* background-color: #19B7FA; */
+    width: 169px;
+    height: 47px;
+    border: solid 2px #fff;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.button_2{
+    background: transparent;
+    /* background-color: #19B7FA; */
+    width: 169px;
+    height: 47px;
+    border: solid 2px #fff;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.diivv{
+    position: relative;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+.diiivv{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 480px;
+    width: 600px;
+    height: 200px;
+    /* background-color: brown; */
+}
+
+.diiivv h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #556a87;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-family: inherit;
+}
+
+.p_2{
+    font-size: 16px;
+    color: #7d7d7d;
+    max-width: 590px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 70px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+    margin: 0 0 10px;
+}
+
+.services{
+    /* display: flex; */
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    /* background-color: brown; */
+}
+
+.divvs_1{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+.divv_1{
+    border: none;
+    background-color: #fff;
+    width: 440px;
+    height: 280px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    box-shadow: 0px 0px 5px 0px rgb(168 157 157 / 31%);
+    padding: 35px 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 110px;
+}
+
+.divv_2{
+    border: none;
+    background-color: #fff;
+    width: 440px;
+    height: 280px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    box-shadow: 0px 0px 5px 0px rgb(168 157 157 / 31%);
+    padding: 35px 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 110px;
+}
+
+.divv_3{
+    border: none;
+    background-color: #fff;
+    width: 440px;
+    height: 280px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    box-shadow: 0px 0px 5px 0px rgb(168 157 157 / 31%);
+    padding: 35px 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 110px;
+}
+
+.divvs_2{
+    position: relative;
+    top: 50px;
+    left: 0;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+
+.divv_4{
+    border: none;
+    background-color: #fff;
+    width: 440px;
+    height: 280px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    box-shadow: 0px 0px 5px 0px rgb(168 157 157 / 31%);
+    padding: 35px 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 110px;
+}
+
+h6{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.divv_5{
+    border: none;
+    background-color: #fff;
+    width: 440px;
+    height: 280px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    box-shadow: 0px 0px 5px 0px rgb(168 157 157 / 31%);
+    padding: 35px 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 110px;
+}
+
+h1{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.divv_6{
+    border: none;
+    background-color: #fff;
+    width: 440px;
+    height: 280px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    box-shadow: 0px 0px 5px 0px rgb(168 157 157 / 31%);
+    padding: 35px 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 110px;
+}
+
+.h2{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.body_2{
+    width: 100%;
+    height: 400px;
+    background-image: url('./contact-us-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    /* transform: rotate(0deg); */
+    position: relative;
+    top: 5px;
+    left: 0%;
+}
+
+h6{
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 70px;
+    font-family: inherit;
+    line-height: 1.1;
+}
+
+.p_555{
+    position: absolute;
+    top: 180px;
+    left: 560px;
+    font-size: 18px;
+    color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;
+}
+.button_5{
+    background: transparent;
+    /* background-color: #19B7FA; */
+    width: 169px;
+    height: 47px;
+    position: absolute;
+    top: 250px;
+    left: 680px;
+    border: solid 2px #fff;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.section_about{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top: 400px;
+    left: 450px;
+    /* background-color: brown; */
+    align-items: center;
+    text-align: center;
+}
+
+h5{
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: inherit;
+    color: #556a87;
+    margin-bottom: 25px;
+    /* background-color: darkblue; */
+    text-align: center;
+}
+
+.p_667{
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    /* background-color: darkturquoise; */
+    font-size: 16px;
+    color: #7d7d7d;
+    /* max-width: 590px; */
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-bottom: 70px; */
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+.section_about_2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    top: 450px;
+    left: 25px;
+    /* background-color: firebrick; */
+}
+.card_1{
+    width: 550px;
+    height: 345px;
+    position: absolute;
+    top: 0;
+    left: 140px;
+    /* background-color: forestgreen; */
+    background-image: url('./about-pic.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: none; */
+    /* border-radius: 5px; */
+    /* box-shadow: 6px 10px 11px 2px rgba(0, 0, 0, 0.31); */
+
+}
+
+.texts{
+    width: calc(100% - 800px);
+    height: 345px;
+    position: absolute;
+    top: 0;
+    left: 750px;
+    /* background-color: gold; */
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: #4f4f4f;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 0;
+    padding-top: 10px;
+    font-family: inherit;
+}
+
+.p_section_1{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    font-size: 17px;
+    color: #848484;
+    font-family: Roboto-Light;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+}
+
+.p_section_2{
+    position: absolute;
+    top: 170px;
+    left: 0;
+    font-size: 16px;
+    color: #7d7d7d;
+    margin-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+.button_222{
+    /* background: transparent; */
+    background-color: #00AAFE;
+    width: 157px;
+    height: 47px;
+    position: absolute;
+    top: 285px;
+    left: 0;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 2.5px 4.33px 10px 0px rgb(0 0 0 / 13%);
+}
+
+.body_30{
+    width: 100%;
+    height: 400px;
+    background-image: url('./overview-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    /* transform: rotate(0deg); */
+    position: relative;
+    top: 300px;
+    left: 0%;
+    text-align: center;
+}
+
+h3{
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 70px;
+    font-family: inherit;
+    line-height: 1.1;
+}
+
+.p_987{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    font-size: 18px;
+    color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;   
+}
+
+.button_10{
+    background: transparent;
+    /* background-color: #19B7FA; */
+    width: 169px;
+    height: 47px;
+    position: absolute;
+    top: 210px;
+    left: 680px;
+    border: solid 2px #fff;
+    border-radius: 25px;
+    color: #fff;
+}
